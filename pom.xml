@@ -12,8 +12,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
+    <!--
+      According to my Spark installation at ~/App/spark-3.1.1-bin-hadoop2.7/RELEASE
+      scala version is still 2.12, hadoop is 2.7 and Spark is 3.1.1 (instead of 3.0.0)
+     -->
     <scala.version>2.12</scala.version>
-    <spark.version>3.0.0</spark.version>
+    <spark.version>3.1.1</spark.version>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
   </properties>
 
